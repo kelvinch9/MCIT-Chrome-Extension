@@ -1,3 +1,12 @@
 body {
   width: 400px;
 }
+
+/* Header Section */
+.header {
+  background-color: #003366;
+}
+
+.penn_logo {
+  width: 60%;
+}
