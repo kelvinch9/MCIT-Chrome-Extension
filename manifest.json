@@ -1,0 +1,9 @@
+{
+  "name": "MCIT Portal",
+  "version": "1.0",
+  "description": "Initial testings for MCIT Portal Chrome extension",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_icon": "logos/penn_favicon.png"
+  }
+}
