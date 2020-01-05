@@ -26,8 +26,8 @@
         term = "summer";
         break;
       case 7: //aug
-      case 8: // sept
-      case 9: // oct
+      case 8: //sept
+      case 9: //oct
       case 10: //nov
       case 11: //dec
         term = "fall";
