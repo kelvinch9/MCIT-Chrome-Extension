@@ -1,0 +1,25 @@
+links
+
+Coursera:
+
+https://www.coursera.org/learn/mcit591-fall2019/home/
+https://www.coursera.org/learn/mcit592-fall2019/home/
+https://www.coursera.org/learn/mcit593-fall2019/home/
+
+In general, it follows: https://www.coursera.org/learn/mcit5 + "x" + "y" + "/home/"
+
+x = course
+y = semester
+
+Piazza:
+https://piazza.com/upenn/fall2019/cit591online
+https://piazza.com/upenn/fall2019/cit592online
+https://piazza.com/upenn/fall2019/cit593online
+
+In general, it follows: https://piazza.com/upenn/ + y + citCOURSE + "online"
+
+So we need to grab the following variables and use them (switch) statement:
+
+course: cit591
+season: [fall, spring, summer]
+year: 2020
