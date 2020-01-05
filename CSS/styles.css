@@ -1,12 +1,37 @@
 body {
   width: 400px;
+  margin: 0;
+  text-align: center;
 }
 
 /* Header Section */
 .header {
   background-color: #003366;
+  padding: 2%;
+  text-align: center;
 }
 
 .penn_logo {
   width: 60%;
+}
+
+/* Settings buttons Section */
+/* Style buttons */
+.header-btn {
+  background-color: white;
+  border: none;
+  cursor: pointer; /* Mouse pointer on hover */
+  padding: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+/* Darker background on mouse-over */
+.header-btn:hover {
+  border-radius: 50%;
+  background-color: grey;
+}
+
+.header-icon {
+  height: 1rem;
 }
