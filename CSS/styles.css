@@ -4,10 +4,10 @@ body {
   text-align: center;
 }
 
-/* Header Section */
+/* -------------------Header Section----------------------- */
 .header {
   background-color: #003366;
-  padding: 2%;
+  padding: 5%;
   text-align: center;
 }
 
@@ -15,7 +15,15 @@ body {
   width: 60%;
 }
 
-/* Settings buttons Section */
+.user {
+  margin-top: 2rem;
+}
+
+/* -------------Settings buttons Section--------------------- */
+.settings-btn {
+  margin-bottom: 2rem;
+}
+
 /* Style buttons */
 .header-btn {
   background-color: white;
@@ -29,9 +37,43 @@ body {
 /* Darker background on mouse-over */
 .header-btn:hover {
   border-radius: 50%;
-  background-color: grey;
+  background-color: #F8F8F8;
 }
 
 .header-icon {
   height: 1rem;
 }
+
+/* ------------Dropdown Buttons---------------------------- */
+.dropbtn {
+  width: 100%;
+  display: block;
+  border: none;
+  background-color: white;
+  font-size: 1.3rem;
+  color: #800000;
+  text-align: left;
+  padding: 0.5rem 0 0.5rem 2rem;
+}
+
+.dropbtn:hover {
+  background-color: #F8F8F8;
+}
+
+.dropdown-content {
+  display: none;
+}
+
+.dropdown-content a {
+  color: #003366;
+  display: block;
+}
+
+.expand-arrow {
+  display: none;
+  position: relative;
+  top: 0.5rem;
+  width: 2rem;
+}
+
+.show {display: block;}
