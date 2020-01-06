@@ -45,19 +45,25 @@ body {
 }
 
 /* ------------Dropdown Buttons---------------------------- */
+.dropdown-buttons {
+  background-image: url("https://images.ctfassets.net/wp1lcwdav1p1/5Ve97SnXEcGUoMUsweWAQQ/5efc343de89f4d4f96a1fcaa777d30f4/penn.jpg");
+  background-size: 100%;
+}
+
 .dropbtn {
   width: 100%;
   display: block;
   border: none;
-  background-color: white;
+  background-color: #003366;
   font-size: 1.3rem;
-  color: #800000;
+  color: white;
   text-align: left;
   padding: 0.5rem 0 0.5rem 2rem;
+  opacity: 0.8;
 }
 
 .dropbtn:hover {
-  background-color: #F8F8F8;
+  background-color: #660000;
 }
 
 .dropdown-content {
@@ -70,6 +76,11 @@ body {
 }
 
 .expand-arrow {
+  width: 1rem;
+  margin-right: 1rem;
+}
+
+.collapse-arrow {
   display: none;
   position: relative;
   top: 0.5rem;
