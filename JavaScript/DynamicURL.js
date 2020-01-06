@@ -34,5 +34,5 @@
         break;
     }
     // model URL: https://www.coursera.org/learn/mcit591-fall2019/home/
-    var myURL = 'https://www.coursera.org/learn/mcit591-' + term + year.toString();
+    var myURL = 'https://www.coursera.org/learn/mcit591-' + term + year.toString() + '/home/';
     document.getElementById("demo").href = myURL; // change elementId to the linkid. see: https://stackoverflow.com/questions/18587633/dynamic-link-with-javascript
