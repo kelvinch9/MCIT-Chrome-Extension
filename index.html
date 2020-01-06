@@ -13,6 +13,37 @@
     <img class="penn_logo" src="logos/penn_logo.png" alt="penn engineering logo">
   </div>
 
+  <div id="data"></div>
+  <br /><br />
+  PennID: <input type="text" onload="loadPennID" id="text"></input>
+  <button id="set">Set</button>
+
+  <script>
+
+
+
+  document.body.onload = function() {
+    chrome.storage.sync.get("data", function(items) {
+      if (!chrome.runtime.error) {
+        console.log(items);
+        document.getElementById("data").value = items.data;
+      }
+    });
+  }
+
+  document.getElementById("set").onclick = function() {
+    var d = document.getElementById("text").value;
+    chrome.storage.sync.set({ "data" : d }, function() {
+      if (chrome.runtime.error) {
+        console.log("Runtime error.");
+      }
+    });
+    window.close();
+  }
+
+  </script>
+
+
 
   <div class="user">
     <h3 class="name">John Doe</h3>
