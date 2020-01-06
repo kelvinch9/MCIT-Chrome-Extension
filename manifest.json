@@ -1,12 +1,18 @@
 {
   "update_url": "https://clients2.google.com/service/update2/crx",
-  "name": "MCIT Portalx",
+  "name": "MCIT Portal",
   "version": "1.0",
   "description": "Initial testings for MCIT Portal Chrome extension",
   "manifest_version": 2,
+
   "permissions": ["storage"],
+
   "browser_action": {
     "default_icon": "logos/penn_favicon.png",
     "default_popup": "index.html"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
   }
 }
