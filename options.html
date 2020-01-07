@@ -1,16 +1,37 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head><title>Settings</title></head>
+<head>
+  <title>Settings</title>
+  <link rel="stylesheet" href="CSS/options.css">
+</head>
 <body>
 
-First Name: <input type="text" name="first" value=""> <br>
-Last Name: <input type="text" name="last" value=""> <br>
-PennID <input type="text" name="pennID" value=""> <br>
+<div class='info'>
+  <h4 style="text-align: center;">You are: </h4>
+</div>
 
-<div id="status"></div>
+<div class='user'>
+  Penn Email: <br> <input type="text" id="email" value="" placeholder="Your Penn email.."> <br>
+  First Name: <br> <input type="text" id="first" value="" placeholder="Your first name.."> <br>
+  Last Name: <br> <input type="text" id="last" value="" placeholder="Your last name.."> <br>
+  PennID: <br> <input type="text" id="pennID" value="" placeholder="Your PennID.."> <br> <br>
+</div>
+
+<div class='courses'>
+  <h4 style="text-align: center;">Select your courses: </h4>
+  <input type="checkbox" name="591"> CIT 591 Introduction to Software Development<br>
+  <input type="checkbox" name="592"> CIT 592 Mathematical Foundations of Computer Science <br>
+  <input type="checkbox" name="593"> CIT 593 Introduction to Computer Systems <br>
+  <input type="checkbox" name="594"> CIT 594 Data Structures & Software Design <br>
+  <input type="checkbox" name="595"> CIT 595 Computer Systems Programming <br>
+  <input type="checkbox" name="595"> CIT 596 Algorithms & Computation <br>
+  <input type="checkbox" name="549"> CIS 549 Wireless Communications for Mobile Networks <br>
+  <input type="checkbox" name="581"> CIS 581 Computer Vision & Computational Photography <br>
+</div>
+
 <button id="save">Save</button>
 
-<script src="options.js"></script>
+<script src="JavaScript/options.js"></script>
 </body>
 
 </html>

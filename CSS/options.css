@@ -1,0 +1,7 @@
+body {
+  margin: 0;
+}
+
+input[type=text], select, textarea {
+  width: 50%;
+}
