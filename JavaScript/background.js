@@ -8,7 +8,7 @@ chrome.runtime.onStartup.addListener(function()){
     first.value = result.key;
   });
 
-  
+
 
 }
 
