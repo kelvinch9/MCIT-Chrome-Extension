@@ -15,115 +15,108 @@
 
   <div class="user">
     <h3 id="name" class="name">John Doe</h3>
-    <h4 id ="pennID">123456</h4>
-    <h4 id ="email" class="email">johndoe@seas.upenn.edu</h4>
+    <h4 id="pennID">123456</h4>
+    <h4 id="email" class="email">johndoe@seas.upenn.edu</h4>
   </div>
 
-  <div class="buttons">
+  <div class="buttons-container">
+
     <div class="transparent_background"></div>
-
-    <a class="popup" id="coursera" target="_blank" role="button">
-      <img src="logos/coursera_favicon.ico" alt="">
-    </a>
-
-    <a class="popup" id="piazza" target="_blank" role="button">
-      <img src="logos/piazza.png" alt="">
-    </a>
-
-    <a href="https://slack.com/" target="_blank" role="button">
-      <img src="logos/slack_favicon.ico" alt="">
-    </a>
-
-    <a class="popup" id="admin" target="_blank" role="button">
-      <img src="logos/penn_logo2.png" alt="">
-    </a>
-
-    <a class="popup" id="settings" target="_blank" role="button">
-      <img src="logos/settings.png" alt="">
-    </a>
-  </div>
-<!-- added hover dropdown menu -->
-  <ul class="top-level-menu">
-    <li>
-        <a href="#">
+    <!-- added hover dropdown menu -->
+    <ul class="buttons">
+      <li class="top-level">
+        <a name="coursera" href="#">
           <img src="logos/coursera_favicon.ico" alt="">
         </a>
-        <ul class="second-level-menu">
-            <li><a href="#">Overview</a>
-            <ul class="third-level-menu">
-                <li><a href="#">591</a></li>
-                <li><a href="#">592</a></li>
-                <li><a href="#">593</a></li>
-                <li><a href="#">594</a></li>
-                <li><a href="#">595</a></li>
-                <li><a href="#">596</a></li>
+        <ul class="dropdown-content">
+          <li>
+            <a href="#">Overview</a>
+            <ul class="second-dropdown-content">
+              <li><a href="#">591</a></li>
+              <li><a href="#">592</a></li>
+              <li><a href="#">593</a></li>
+              <li><a href="#">594</a></li>
+              <li><a href="#">595</a></li>
+              <li><a href="#">596</a></li>
             </ul>
           </li>
-            <li><a href="#">Live Events</a>
-              <ul class="third-level-menu">
-                  <li><a href="#">591</a></li>
-                  <li><a href="#">592</a></li>
-                  <li><a href="#">593</a></li>
-                  <li><a href="#">594</a></li>
-                  <li><a href="#">595</a></li>
-                  <li><a href="#">596</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Grades</a>
-              <ul class="third-level-menu">
-                  <li><a href="#">591</a></li>
-                  <li><a href="#">592</a></li>
-                  <li><a href="#">593</a></li>
-                  <li><a href="#">594</a></li>
-                  <li><a href="#">595</a></li>
-                  <li><a href="#">596</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Resources</a>
-              <ul class="third-level-menu">
-                  <li><a href="#">591</a></li>
-                  <li><a href="#">592</a></li>
-                  <li><a href="#">593</a></li>
-                  <li><a href="#">594</a></li>
-                  <li><a href="#">595</a></li>
-                  <li><a href="#">596</a></li>
-              </ul>
-            </li>
+          <li>
+            <a href="#">Live Events</a>
+            <ul class="dropdown-content">
+              <li><a href="#">591</a></li>
+              <li><a href="#">592</a></li>
+              <li><a href="#">593</a></li>
+              <li><a href="#">594</a></li>
+              <li><a href="#">595</a></li>
+              <li><a href="#">596</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Grades</a>
+            <ul class="dropdown-content">
+              <li><a href="#">591</a></li>
+              <li><a href="#">592</a></li>
+              <li><a href="#">593</a></li>
+              <li><a href="#">594</a></li>
+              <li><a href="#">595</a></li>
+              <li><a href="#">596</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Resources</a>
+            <ul class="dropdown-content">
+              <li><a href="#">591</a></li>
+              <li><a href="#">592</a></li>
+              <li><a href="#">593</a></li>
+              <li><a href="#">594</a></li>
+              <li><a href="#">595</a></li>
+              <li><a href="#">596</a></li>
+            </ul>
+          </li>
         </ul>
-    </li>
-    <li><a href="#">
-      <img src="logos/piazza.png" alt=""></a>
-      <ul class="second-level-menu">
+      </li>
+
+      <li class="top-level">
+      <a name="piazza" href="#">
+          <img src="logos/piazza.png" alt="">
+        </a>
+        <ul class="dropdown-content">
           <li><a href="#">591</a></li>
           <li><a href="#">592</a></li>
           <li><a href="#">593</a></li>
           <li><a href="#">594</a></li>
           <li><a href="#">595</a></li>
           <li><a href="#">596</a></li>
-      </ul>
-    </li>
-    <li><a href="#">
-      <img src="logos/slack_favicon.ico" alt="">
-    </a>
-    </li>
-    <li><a href="#">
-      <img src="logos/penn_logo2.png" alt="">
-      <ul class="second-level-menu">
-          <li><a href="#">Send Email</a></li>
-          <li><a href="#">PennInTouch</a></li>
-          <li><a href="#">Academic Calendar</a></li>
-          <li><a href="#">Student Handbook</a></li>
-          <li><a href="#">Handshake</a></li>
-      </ul>
-    </li>
-    <li><a href="#">
-      <img src="logos/settings.png" alt="">
-    </a>
-  </li>
-</ul>
+        </ul>
+      </li>
 
-<script src="JavaScript/new_popup.js" charset="utf-8"></script>
-<script src="JavaScript/loadUser.js"></script>
+      <li class="top-level">
+      <a name="slack" href="#">
+          <img src="logos/slack_favicon.ico" alt="">
+        </a>
+      </li>
+      <li class="top-level">
+        <a href="#">
+          <img src="logos/penn_logo2.png" alt="">
+        </a>
+          <ul class="dropdown-content">
+            <li><a href="#">Send Email</a></li>
+            <li><a href="#">PennInTouch</a></li>
+            <li><a href="#">Academic Calendar</a></li>
+            <li><a href="#">Student Handbook</a></li>
+            <li><a href="#">Handshake</a></li>
+          </ul>
+      </li>
+
+      <li class="top-level">
+        <a id="settings" name="settings" href="#">
+          <img src="logos/settings.png" alt="">
+        </a>
+      </li>
+    </ul>
+
+  <script src="JavaScript/new_popup.js" charset="utf-8"></script>
+  <script src="JavaScript/loadUser.js"></script>
 </body>
 
 </html>

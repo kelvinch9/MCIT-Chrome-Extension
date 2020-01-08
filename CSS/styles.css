@@ -28,7 +28,8 @@ body {
 .header-btn {
   background-color: white;
   border: none;
-  cursor: pointer; /* Mouse pointer on hover */
+  cursor: pointer;
+  /* Mouse pointer on hover */
   padding: 0.5rem;
   width: 2rem;
   height: 2rem;
@@ -45,10 +46,22 @@ body {
 }
 
 /* ------------Buttons---------------------------- */
-.buttons {
+.buttons-container {
   background-image: url("https://images.ctfassets.net/wp1lcwdav1p1/5Ve97SnXEcGUoMUsweWAQQ/5efc343de89f4d4f96a1fcaa777d30f4/penn.jpg");
   background-size: 100%;
   height: 125px;
+}
+
+.transparent_background {
+  background-color: #003366;
+  opacity: 0.7;
+  height: 125px;
+  margin-bottom: -30px;
+}
+
+.buttons {
+  margin: 0 auto 0 auto;
+  padding: 0;
 }
 
 /* Adjust all imgs to have the same size */
@@ -64,95 +77,22 @@ body {
   margin: 0 10px 0 10px;
 }
 
-.transparent_background {
-  background-color: #003366;
-  opacity: 0.7;
-  height: 125px;
-  margin-bottom: -30px;
+/* Drop down Section*/
+.top-level {
+  display: inline;
 }
 
-/* Menu Styles for drop down */
-
-/* Adjust all imgs to have the same size */
-.top-level-menu img {
-  height: 25px;
-  width: 25px;
+/* dropdown content is hidden by default */
+.dropdown-content, .second-dropdown-content {
+  display: none;
 }
 
-.third-level-menu
-{
-    position: absolute;
-    top: 0;
-    right: -150px;
-    width: 150px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: none;
+/* Show content at hover */
+.top-level:hover > ul {
+  display: inline;
 }
 
-.third-level-menu > li
-{
-    height: 30px;
-    background: #999999;
+/* Styling for dropdown content */
+.dropdown-content, .second-dropdown-content {
+
 }
-.third-level-menu > li:hover { background: #CCCCCC; }
-
-.second-level-menu
-{
-    position: absolute;
-    top: 30px;
-    left: 0;
-    width: 150px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: none;
-}
-
-.second-level-menu > li
-{
-    position: relative;
-    height: 30px;
-    background: #999999;
-}
-.second-level-menu > li:hover { background: #CCCCCC; }
-
-.top-level-menu
-{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.top-level-menu > li
-{
-    position: relative;
-    float: left;
-    height: 30px;
-    width: 50px;
-    background: #999999;
-}
-.top-level-menu > li:hover { background: #CCCCCC; }
-
-.top-level-menu li:hover > ul
-{
-    /* On hover, display the next level's menu */
-    display: inline;
-}
-
-
-/* Menu Link Styles */
-
-.top-level-menu a /* Apply to all links inside the multi-level menu */
-{
-    font: bold 14px Arial, Helvetica, sans-serif;
-    color: #FFFFFF;
-    text-decoration: none;
-    padding: 0 0 0 10px;
-
-    /* Make the link cover the entire list item-container */
-    display: block;
-    line-height: 30px;
-}
-.top-level-menu a:hover { color: #000000; }
