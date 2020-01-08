@@ -2,6 +2,7 @@
 //There is a a better code that is DRYer below. However, it has a bug that triggers all the buttons as soon as the extension is opened.
 //The bug seems to be linked to passing arguments into the function being called inside the addEventListener code.
 //Add event listener to buttons
+
 document.getElementById("coursera").addEventListener("click", openCourses);
 document.getElementById("settings").addEventListener("click", openSettings);
 document.getElementById("piazza").addEventListener("click", openPiazza);
