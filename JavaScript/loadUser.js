@@ -6,9 +6,29 @@ document.body.onload = function() {
     if (!chrome.runtime.error) {
       console.log(items);
       //load user data
-      document.getElementById("name").innerText = items.first + " " + items.last;
-      document.getElementById("email").innerText = items.email;
-      document.getElementById("pennID").innerText = "Penn ID: " + items.pennID;
+
+      //first, last
+      if(items.first == null || items.last == null){
+        document.getElementById("name").innerText = "add your full name in settings";
+      }
+      else{
+        document.getElementById("name").innerText = items.first + " " + items.last;
+      }
+      //email
+      if(items.email == null){
+        document.getElementById("email").innerText = "add your email in settings";
+      }
+      else{
+        document.getElementById("email").innerText = items.email;
+      }
+      //pennID
+      if(items.pennID == null){
+        document.getElementById("pennID").innerText = "add your pennID in settings";
+      }
+      else{
+        document.getElementById("pennID").innerText = "Penn ID: " + items.pennID;
+      }
+
       //hide course elements
       if(items.cit591){
          document.getElementById("overview_591").style.display = "none";
