@@ -108,4 +108,4 @@
     var piazza_596 = 'https://piazza.com/upenn/' + term + year.toString() + '/cit596online';
       document.getElementById("piazza_596").href = piazza_596;
 
-    //hide elements (not yet implemented)
+    //hide elements in loadUser.js since document.body.onload supports only one function
