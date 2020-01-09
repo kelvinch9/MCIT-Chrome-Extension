@@ -3,10 +3,10 @@
 //The bug seems to be linked to passing arguments into the function being called inside the addEventListener code.
 //Add event listener to buttons
 
-document.getElementById("coursera").addEventListener("click", openCourses);
-document.getElementById("settings").addEventListener("click", openSettings);
-document.getElementById("piazza").addEventListener("click", openPiazza);
-document.getElementById("admin").addEventListener("click", openAdmin);
+// document.getElementById("coursera").addEventListener("click", openCourses);
+// document.getElementById("settings").addEventListener("click", openSettings);
+// document.getElementById("piazza").addEventListener("click", openPiazza);
+// document.getElementById("admin").addEventListener("click", openAdmin);
 
 //functions to trigger a new popup
 function openCourses() {

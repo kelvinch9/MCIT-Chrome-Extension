@@ -1,7 +1,12 @@
 body {
   margin: 0;
+  width: auto;
 }
 
 input[type=text], select, textarea {
-  width: 50%;
+  width: 400px;
+}
+
+head {
+  width: auto;
 }
