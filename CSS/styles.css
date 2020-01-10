@@ -4,7 +4,7 @@ body {
   margin: 0;
   text-align: center;
   background: #003366;
-  font-family: 'Merriweather', serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* -------------------Header Section----------------------- */
@@ -159,3 +159,8 @@ h4 {
     background: #999999;
 }
 .second-dropdown-content > li:hover { background: #CCCCCC; }
+
+/* See if you can implement a JS code that will give the <li> a class called show. Which should trigger this CSS code. Naturally everything will be hidden at first. */
+.show {
+  display: block;
+}
