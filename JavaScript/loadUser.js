@@ -36,6 +36,13 @@ document.body.onload = function() {
          document.getElementById("grades_591").style.display = "none";
          document.getElementById("resources_591").style.display = "none";
          document.getElementById("piazza_591").style.display = "none";
+
+         //hide each element in class
+         var elems = document.getElementsByClassName('urls_591');
+         for (var i=0;i<elems.length;i++){
+           elems[i].style.display = 'none';
+         }
+
       }
       //hide 592
       if(!(items.cit592)){
@@ -44,6 +51,11 @@ document.body.onload = function() {
          document.getElementById("grades_592").style.display = "none";
          document.getElementById("resources_592").style.display = "none";
          document.getElementById("piazza_592").style.display = "none";
+
+         var elems = document.getElementsByClassName('urls_592');
+         for (var i=0;i<elems.length;i++){
+           elems[i].style.display = 'none';
+         }
       }
       //hide 593
       if(!(items.cit593)){
@@ -52,6 +64,11 @@ document.body.onload = function() {
          document.getElementById("grades_593").style.display = "none";
          document.getElementById("resources_593").style.display = "none";
          document.getElementById("piazza_593").style.display = "none";
+
+         var elems = document.getElementsByClassName('urls_593');
+         for (var i=0;i<elems.length;i++){
+           elems[i].style.display = 'none';
+         }
       }
       //hide 594
       if(!(items.cit594)){
@@ -60,6 +77,11 @@ document.body.onload = function() {
          document.getElementById("grades_594").style.display = "none";
          document.getElementById("resources_594").style.display = "none";
          document.getElementById("piazza_594").style.display = "none";
+
+         var elems = document.getElementsByClassName('urls_594');
+         for (var i=0;i<elems.length;i++){
+           elems[i].style.display = 'none';
+         }
       }
       //hide 595
       if(!(items.cit595)){
@@ -68,6 +90,11 @@ document.body.onload = function() {
          document.getElementById("grades_595").style.display = "none";
          document.getElementById("resources_595").style.display = "none";
          document.getElementById("piazza_595").style.display = "none";
+
+         var elems = document.getElementsByClassName('urls_595');
+         for (var i=0;i<elems.length;i++){
+           elems[i].style.display = 'none';
+         }
       }
       //hide 596
       if(!(items.cit596)){
@@ -76,6 +103,11 @@ document.body.onload = function() {
          document.getElementById("grades_596").style.display = "none";
          document.getElementById("resources_596").style.display = "none";
          document.getElementById("piazza_596").style.display = "none";
+
+         var elems = document.getElementsByClassName('urls_596');
+         for (var i=0;i<elems.length;i++){
+           elems[i].style.display = 'none';
+         }
       }
     }
   });
