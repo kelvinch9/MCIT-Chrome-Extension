@@ -1,5 +1,47 @@
 body {
-  /* margin: 0 auto 0 auto; */
   width: 400px;
-  /* background-color: #003366; */
+  font-family: 'Merriweather', serif;
+}
+
+h4 {
+  color: #cc0000;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 8px;
+  width: 15%;
+  color: #cc0000;
+  margin: 20px auto;
+}
+
+p {
+  margin: 0;
+}
+
+.field {
+  margin-bottom: 10px;
+}
+
+.save-button {
+	background:#003366;
+	border-radius:19px;
+  border: none;
+  width: 80%;
+  height: 40px;
+	display:block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	text-decoration:none;
+  margin: 30px auto 0 auto;
+}
+
+.save-button:active {
+	position:relative;
+	top:1px;
 }

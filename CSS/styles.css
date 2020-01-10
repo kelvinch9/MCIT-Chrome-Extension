@@ -3,7 +3,8 @@ body {
   height: auto;
   margin: 0;
   text-align: center;
-  background: #003366
+  background: #003366;
+  font-family: 'Merriweather', serif;
 }
 
 /* -------------------Header Section----------------------- */

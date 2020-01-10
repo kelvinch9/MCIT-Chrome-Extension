@@ -1,46 +1,53 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
   <title>Settings</title>
   <link rel="stylesheet" href="CSS/options.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-<div class="container">
-  <div class='info'>
-    <h4>You are: </h4>
+  <div class="container">
+    <div class='info'>
+      <h4>You are: </h4>
+    </div>
+
+    <div class='user'>
+
+      <p>First Name:</p>
+      <input class="field" type="text" id="first" value="" placeholder="Your first name..">
+
+      <p>Last Name: </p>
+      <input class="field" type="text" id="last" value="" placeholder="Your last name..">
+
+      <p>PennID:</p>
+      <input class="field" type="text" id="pennID" value="" placeholder="Your PennID..">
+
+      <p>Penn Email:</p>
+      <input class="field" type="text" id="email" value="" placeholder="Your Penn email..">
+    </div>
+
+    <hr>
+
+    <div class='courses'>
+      <h4>Select your courses: </h4>
+      <input class="course-input" type="checkbox" id="cit591"> CIT 591 Introduction to Software Development<br>
+      <input class="course-input" type="checkbox" id="cit592"> CIT 592 Mathematical Foundations of Computer Science <br>
+      <input class="course-input" type="checkbox" id="cit593"> CIT 593 Introduction to Computer Systems <br>
+      <input class="course-input" type="checkbox" id="cit594"> CIT 594 Data Structures & Software Design <br>
+      <input class="course-input" type="checkbox" id="cit595"> CIT 595 Computer Systems Programming <br>
+      <input class="course-input" type="checkbox" id="cit596"> CIT 596 Algorithms & Computation <br>
+      <input class="course-input" type="checkbox" id="cit549"> CIS 549 Wireless Communications for Mobile Networks <br>
+      <input class="course-input" type="checkbox" id="cit581"> CIS 581 Computer Vision & Computational Photography <br>
+    </div>
+
+    <button class="save-button" id="save">Save</button>
   </div>
 
-  <div class='user'>
-    <p>Penn Email:</p>
-    <input type="text" id="email" value="" placeholder="Your Penn email..">
-    <p>First Name:</p>
-    <input type="text" id="first" value="" placeholder="Your first name..">
-    <p>Last Name: </p>
-    <input type="text" id="last" value="" placeholder="Your last name..">
-    <p>PennID:</p>
-    <input type="text" id="pennID" value="" placeholder="Your PennID..">
-  </div>
 
-<hr>
-
-  <div class='courses'>
-    <h4>Select your courses: </h4>
-    <input class="class-input" type="checkbox" id="cit591"> CIT 591 Introduction to Software Development<br>
-    <input class="class-input" type="checkbox" id="cit592"> CIT 592 Mathematical Foundations of Computer Science <br>
-    <input class="class-input" type="checkbox" id="cit593"> CIT 593 Introduction to Computer Systems <br>
-    <input class="class-input" type="checkbox" id="cit594"> CIT 594 Data Structures & Software Design <br>
-    <input class="class-input" type="checkbox" id="cit595"> CIT 595 Computer Systems Programming <br>
-    <input class="class-input" type="checkbox" id="cit596"> CIT 596 Algorithms & Computation <br>
-    <input class="class-input" type="checkbox" id="cit549"> CIS 549 Wireless Communications for Mobile Networks <br>
-    <input class="class-input" type="checkbox" id="cit581"> CIS 581 Computer Vision & Computational Photography <br>
-  </div>
-
-  <button id="save">Save</button>
-</div>
-
-
-<script src="JavaScript/options.js"></script>
+  <script src="JavaScript/options.js"></script>
 </body>
 
 </html>
