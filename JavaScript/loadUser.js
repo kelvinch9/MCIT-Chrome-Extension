@@ -9,21 +9,21 @@ document.body.onload = function() {
 
       //first, last
       if(items.first == null || items.last == null){
-        document.getElementById("name").innerText = "add your full name in settings";
+        document.getElementById("name").innerText = "Welcome to your MCIT Portal";
       }
       else{
         document.getElementById("name").innerText = items.first + " " + items.last;
       }
       //email
       if(items.email == null){
-        document.getElementById("email").innerText = "add your email in settings";
+        document.getElementById("email").innerText = "your profile!";
       }
       else{
         document.getElementById("email").innerText = items.email;
       }
       //pennID
       if(items.pennID == null){
-        document.getElementById("pennID").innerText = "add your pennID in settings";
+        document.getElementById("pennID").innerText = "Go to settings and configure";
       }
       else{
         document.getElementById("pennID").innerText = "Penn ID: " + items.pennID;
