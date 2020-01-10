@@ -29,16 +29,54 @@ document.body.onload = function() {
         document.getElementById("pennID").innerText = "Penn ID: " + items.pennID;
       }
 
-      //hide course elements
-      if(items.cit591){
+      //hide 591
+      if(!(items.cit591)){
          document.getElementById("overview_591").style.display = "none";
          document.getElementById("live_events_591").style.display = "none";
          document.getElementById("grades_591").style.display = "none";
          document.getElementById("resources_591").style.display = "none";
          document.getElementById("piazza_591").style.display = "none";
       }
-      // add other classes but test one above first
-
+      //hide 592
+      if(!(items.cit592)){
+         document.getElementById("overview_592").style.display = "none";
+         document.getElementById("live_events_592").style.display = "none";
+         document.getElementById("grades_592").style.display = "none";
+         document.getElementById("resources_592").style.display = "none";
+         document.getElementById("piazza_592").style.display = "none";
+      }
+      //hide 593
+      if(!(items.cit593)){
+         document.getElementById("overview_593").style.display = "none";
+         document.getElementById("live_events_593").style.display = "none";
+         document.getElementById("grades_593").style.display = "none";
+         document.getElementById("resources_593").style.display = "none";
+         document.getElementById("piazza_593").style.display = "none";
+      }
+      //hide 594
+      if(!(items.cit594)){
+         document.getElementById("overview_594").style.display = "none";
+         document.getElementById("live_events_594").style.display = "none";
+         document.getElementById("grades_594").style.display = "none";
+         document.getElementById("resources_594").style.display = "none";
+         document.getElementById("piazza_594").style.display = "none";
+      }
+      //hide 595
+      if(!(items.cit595)){
+         document.getElementById("overview_595").style.display = "none";
+         document.getElementById("live_events_595").style.display = "none";
+         document.getElementById("grades_595").style.display = "none";
+         document.getElementById("resources_595").style.display = "none";
+         document.getElementById("piazza_595").style.display = "none";
+      }
+      //hide 596
+      if(!(items.cit596)){
+         document.getElementById("overview_596").style.display = "none";
+         document.getElementById("live_events_596").style.display = "none";
+         document.getElementById("grades_596").style.display = "none";
+         document.getElementById("resources_596").style.display = "none";
+         document.getElementById("piazza_596").style.display = "none";
+      }
     }
   });
 }
