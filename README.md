@@ -11,9 +11,9 @@
  
  <p align="center">
  
- <img src="https://raw.githubusercontent.com/kelvinch9/MCIT-Chrome-Extension/master/images/extension_favicon.PNG?token=ANWOM6KA2LEJAGQV2HXTFP26C6YBI">
+ <img src="https://raw.githubusercontent.com/kelvinch9/MCIT-Chrome-Extension/master/images/extension_favicon.PNG?token=ANWOM6N7V7FBCYZZKCLFFRC6DC6VA">
  
-  <img src="https://raw.githubusercontent.com/kelvinch9/MCIT-Chrome-Extension/master/images/main_image.PNG?token=ANWOM6LLRWXC5TQKWS65UZ26C6X5K">
+  <img src="https://raw.githubusercontent.com/kelvinch9/MCIT-Chrome-Extension/master/images/main_image.PNG?token=ANWOM6J4FEN2SWAEYCBSZCS6DC6WM">
  </p>
  
  **Features**
