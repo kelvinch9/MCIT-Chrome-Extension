@@ -1,11 +1,9 @@
-body
-{
+body {
   width: 400px;
   font-family: 'Roboto', sans-serif;
 }
 
-label
-{
+label {
   display: block;
   margin-bottom: 5px;
 }
@@ -18,47 +16,43 @@ hr {
   margin: 20px auto;
 }
 
-.back
-{
+.back {
   text-decoration: none;
   color: #cc0000;
   font-weight: bold;
   margin-bottom: 0;
 }
 
-.container
-{
+.container {
   margin-left: 10px;
 }
 
-.input-box
-{
+.input-box {
   margin-bottom: 10px;
 }
 
 .save-button {
-	background:#003366;
-	border-radius:19px;
+  background: #003366;
+  border-radius: 19px;
   border: none;
   width: 80%;
   height: 40px;
-	display:block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:15px;
-	font-weight:bold;
-	text-decoration:none;
+  display: block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
   margin: 30px auto 0 auto;
 }
 
 .save-button:active {
-	position:relative;
-	top:1px;
+  position: relative;
+  top: 1px;
 }
 
-.msg
-{
+.msg {
   font-size: 17px;
   text-align: center;
 }
