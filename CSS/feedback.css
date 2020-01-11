@@ -1,12 +1,13 @@
-body {
+body
+{
   width: 400px;
   font-family: 'Roboto', sans-serif;
 }
 
-h4 {
-  color: #cc0000;
-  font-size: 15px;
-  margin-bottom: 10px;
+label
+{
+  display: block;
+  margin-bottom: 5px;
 }
 
 hr {
@@ -17,11 +18,21 @@ hr {
   margin: 20px auto;
 }
 
-p {
-  margin: 0;
+.back
+{
+  text-decoration: none;
+  color: #cc0000;
+  font-weight: bold;
+  margin-bottom: 0;
 }
 
-.field {
+.container
+{
+  margin-left: 10px;
+}
+
+.input-box
+{
   margin-bottom: 10px;
 }
 
@@ -46,15 +57,8 @@ p {
 	top:1px;
 }
 
-.back
+.msg
 {
-  text-decoration: none;
-  color: #cc0000;
-  font-weight: bold;
-  margin-bottom: 0;
-}
-
-.container
-{
-  padding: 0 20px 0 20px;
+  font-size: 17px;
+  text-align: center;
 }
