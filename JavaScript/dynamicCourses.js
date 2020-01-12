@@ -46,6 +46,10 @@ var overview_595 = 'https://www.coursera.org/learn/mcit595-' + term + year.toStr
 document.getElementById("overview_595").href = overview_595;
 var overview_596 = 'https://www.coursera.org/learn/mcit596-' + term + year.toString() + '/home/';
 document.getElementById("overview_596").href = overview_596;
+var overview_549 = 'https://www.coursera.org/learn/mcit549-' + term + year.toString() + '/home/';
+document.getElementById("overview_549").href = overview_549;
+var overview_581 = 'https://www.coursera.org/learn/mcit581-' + term + year.toString() + '/home/';
+document.getElementById("overview_581").href = overview_581;
 
 //update URLs for Live Events
 // model URL: https://www.coursera.org/learn/mcit592-fall2019/office-hours
@@ -61,6 +65,10 @@ var live_events_595 = 'https://www.coursera.org/learn/mcit595-' + term + year.to
 document.getElementById("live_events_595").href = live_events_595;
 var live_events_596 = 'https://www.coursera.org/learn/mcit596-' + term + year.toString() + '/office-hours';
 document.getElementById("live_events_596").href = live_events_596;
+var live_events_549 = 'https://www.coursera.org/learn/mcit549-' + term + year.toString() + '/office-hours';
+document.getElementById("live_events_549").href = live_events_549;
+var live_events_581 = 'https://www.coursera.org/learn/mcit581-' + term + year.toString() + '/office-hours';
+document.getElementById("live_events_581").href = live_events_581;
 
 //update URLs for Grades
 //model URL: https://www.coursera.org/learn/mcit592-fall2019/home/assignments
@@ -76,6 +84,10 @@ var grades_595 = 'https://www.coursera.org/learn/mcit595-' + term + year.toStrin
 document.getElementById("grades_595").href = grades_595;
 var grades_596 = 'https://www.coursera.org/learn/mcit596-' + term + year.toString() + '/home/assignments';
 document.getElementById("grades_596").href = grades_596;
+var grades_549 = 'https://www.coursera.org/learn/mcit549-' + term + year.toString() + '/home/assignments';
+document.getElementById("grades_549").href = grades_549;
+var grades_581 = 'https://www.coursera.org/learn/mcit581-' + term + year.toString() + '/home/assignments';
+document.getElementById("grades_581").href = grades_581;
 
 //update URLs for Resources
 //model URL: https://www.coursera.org/learn/mcit592-fall2019/resources/
@@ -91,6 +103,10 @@ var resources_595 = 'https://www.coursera.org/learn/mcit595-' + term + year.toSt
 document.getElementById("resources_595").href = resources_595;
 var resources_596 = 'https://www.coursera.org/learn/mcit596-' + term + year.toString() + '/resources/';
 document.getElementById("resources_596").href = resources_596;
+var resources_549 = 'https://www.coursera.org/learn/mcit549-' + term + year.toString() + '/resources/';
+document.getElementById("resources_549").href = resources_549;
+var resources_581 = 'https://www.coursera.org/learn/mcit581-' + term + year.toString() + '/resources/';
+document.getElementById("resources_581").href = resources_581;
 
 //update URLs for Piazza
 //model URL: https://piazza.com/upenn/fall2019/cit592online
@@ -106,5 +122,7 @@ var piazza_595 = 'https://piazza.com/upenn/' + term + year.toString() + '/cit595
 document.getElementById("piazza_595").href = piazza_595;
 var piazza_596 = 'https://piazza.com/upenn/' + term + year.toString() + '/cit596online';
 document.getElementById("piazza_596").href = piazza_596;
-
-//hide elements in loadUser.js since document.body.onload supports only one function
+var piazza_549 = 'https://piazza.com/upenn/' + term + year.toString() + '/cit549online';
+document.getElementById("piazza_549").href = piazza_549;
+var piazza_581 = 'https://piazza.com/upenn/' + term + year.toString() + '/cit581online';
+document.getElementById("piazza_581").href = piazza_581;

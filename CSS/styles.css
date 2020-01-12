@@ -163,3 +163,9 @@ h4 {
 .second-dropdown-content>li:hover {
   background: #CCCCCC;
 }
+
+/* feedback secction */
+
+.feedback {
+  text-align: right;
+}

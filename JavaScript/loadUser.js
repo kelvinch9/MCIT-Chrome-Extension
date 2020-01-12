@@ -2,7 +2,7 @@
 
 document.body.onload = function() {
   chrome.storage.sync.get(["first", "last", "email", "pennID", "cit591", "cit592",
-        "cit593","cit594", "cit595", "cit596"], function(items) {
+        "cit593","cit594", "cit595", "cit596", "cit549", "cit581"], function(items) {
     if (!chrome.runtime.error) {
       console.log(items);
       //load user data
@@ -109,6 +109,33 @@ document.body.onload = function() {
            elems[i].style.display = 'none';
          }
       }
+      //hide 549
+      if(!(items.cit549)){
+         document.getElementById("overview_549").style.display = "none";
+         document.getElementById("live_events_549").style.display = "none";
+         document.getElementById("grades_549").style.display = "none";
+         document.getElementById("resources_549").style.display = "none";
+         document.getElementById("piazza_549").style.display = "none";
+
+         var elems = document.getElementsByClassName('urls_549');
+         for (var i=0;i<elems.length;i++){
+           elems[i].style.display = 'none';
+         }
+      }
+      //hide 581
+      if(!(items.cit581)){
+         document.getElementById("overview_581").style.display = "none";
+         document.getElementById("live_events_581").style.display = "none";
+         document.getElementById("grades_581").style.display = "none";
+         document.getElementById("resources_581").style.display = "none";
+         document.getElementById("piazza_581").style.display = "none";
+
+         var elems = document.getElementsByClassName('urls_581');
+         for (var i=0;i<elems.length;i++){
+           elems[i].style.display = 'none';
+         }
+      }
+
     }
   });
 }

@@ -13,6 +13,8 @@ document.getElementById("save").onclick = function() {
   var cit594 = document.getElementById("cit594").checked;
   var cit595 = document.getElementById("cit595").checked;
   var cit596 = document.getElementById("cit596").checked;
+  var cit549 = document.getElementById("cit549").checked;
+  var cit581 = document.getElementById("cit581").checked;
   chrome.storage.sync.set({"first":first,
                             "last":last,
                             "email":email,
@@ -22,7 +24,9 @@ document.getElementById("save").onclick = function() {
                             "cit593":cit593,
                             "cit594":cit594,
                             "cit595":cit595,
-                            "cit596":cit596}, function() {
+                            "cit596":cit596,
+                            "cit549":cit549,
+                            "cit581":cit581}, function() {
     if (chrome.runtime.error) {
       console.log("Runtime error.");
     }
@@ -33,7 +37,7 @@ document.getElementById("save").onclick = function() {
 // loads saved options onto the options page
 document.body.onload = function() {
   chrome.storage.sync.get(["first", "last", "email", "pennID", "cit591", "cit592",
-                            "cit593","cit594", "cit595", "cit596"], function(items) {
+                            "cit593","cit594", "cit595", "cit596", "cit549", "cit581"], function(items) {
     if (!chrome.runtime.error) {
       console.log(items);
       // load user identity
@@ -48,6 +52,8 @@ document.body.onload = function() {
       document.getElementById("cit594").checked = items.cit594;
       document.getElementById("cit595").checked = items.cit595;
       document.getElementById("cit596").checked = items.cit596;
+      document.getElementById("cit549").checked = items.cit549;
+      document.getElementById("cit581").checked = items.cit581;
       }
   });
 }
