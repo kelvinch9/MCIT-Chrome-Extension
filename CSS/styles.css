@@ -167,5 +167,6 @@ h4 {
 /* feedback secction */
 
 .feedback {
+  display: block;
   text-align: right;
 }
