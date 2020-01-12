@@ -1,5 +1,4 @@
-body
-{
+body {
   width: 400px;
   height: auto;
   margin: 0;
@@ -8,44 +7,44 @@ body
   font-family: 'Roboto', sans-serif;
 }
 
-h3 {margin: 5px;}
+h3 {
+  margin: 5px;
+}
 
-h4
-{
+h4 {
   margin: 5px;
   color: #595959;
 }
 
 /* -------------------Header Section----------------------- */
-.header
-{
+.header {
   padding: 5%;
   text-align: center;
 }
 
-.penn_logo{width: 40%;}
+.penn_logo {
+  width: 40%;
+}
 
-.user
-{
+.user {
   padding: 20px 0 20px 0;
   background: white;
 }
 
 /* Feedback button */
-.feedback
-{
+.feedback {
   text-decoration: none;
   color: white;
   margin-bottom: 0;
 }
 
-
 /* -------------Settings buttons Section--------------------- */
-.settings-btn {margin-bottom: 2rem;}
+.settings-btn {
+  margin-bottom: 2rem;
+}
 
 /* Style buttons */
-.header-btn
-{
+.header-btn {
   background-color: white;
   border: none;
   cursor: pointer;
@@ -56,26 +55,25 @@ h4
 }
 
 /* Darker background on mouse-over */
-.header-btn:hover
-{
+.header-btn:hover {
   border-radius: 50%;
   background-color: #F8F8F8;
 }
 
-.header-icon {height: 1rem;}
+.header-icon {
+  height: 1rem;
+}
 
 /* ------------Buttons---------------------------- */
 /* Adjust all imgs to have the same size */
-.buttons img
-{
+.buttons img {
   height: 25px;
   width: 25px;
   padding: 4px 1px;
   /* margin-top: 10px; */
 }
 
-.buttons-container
-{
+.buttons-container {
   /* margin: 0 auto 0 auto; */
   width: 400px;
   height: 100px;
@@ -83,8 +81,7 @@ h4
   background-size: 100%;
 }
 
-.transparent-background
-{
+.transparent-background {
   background-color: #003366;
   opacity: 0.8;
   width: 400px;
@@ -92,83 +89,77 @@ h4
   position: absolute;
 }
 
-.buttons
-{
+.buttons {
   margin: 0;
   list-style: none;
   padding: 30px;
-    /* margin: 0 auto 0 auto; */
 }
 
-.buttons > li
-{
-    position: relative;
-    float: left;
-    width: 55px;
+.buttons>li {
+  position: relative;
+  float: left;
+  width: 55px;
 }
 
-.buttons > li:hover
-{
+.buttons>li:hover {
   border-radius: 20%;
   background: #CCCCCC;
 }
 
-.buttons li:hover > ul
-{
-    /* On hover, display the next level's menu */
-    display: inline;
+.buttons li:hover>ul {
+  /* On hover, display the next level's menu */
+  display: inline;
 }
-
 
 /* Menu Link Styles */
+.buttons a
 
-.buttons a /* Apply to all links inside the multi-level menu */
-{
-    font: bold 14px Arial, Helvetica, sans-serif;
-    color: #FFFFFF;
-    text-decoration: none;
-    /* padding: 0 0 0 10px; */
-
-    /* Make the link cover the entire list item-container */
-    display: block;
-    line-height: 30px;
+/* Apply to all links inside the multi-level menu */
+  {
+  font: bold 14px Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+  text-decoration: none;
+  display: block;
+  line-height: 30px;
 }
 
-.dropdown-content
-{
-    position: absolute;
-    top: 35px;
-    left: 0;
-    width: 150px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: none;
+.dropdown-content {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  width: 150px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none;
 }
 
-.dropdown-content > li
-{
-    position: relative;
-    height: 30px;
-    background: #999999;
-}
-.dropdown-content > li:hover { background: #CCCCCC; }
-
-.second-dropdown-content
-{
-    position: absolute;
-    top: 0;
-    right: -150px;
-    width: 150px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: none;
+.dropdown-content>li {
+  position: relative;
+  height: 30px;
+  background: #999999;
 }
 
-.second-dropdown-content > li
-{
-    height: 30px;
-    background: #999999;
+.dropdown-content>li:hover {
+  background: #CCCCCC;
 }
-.second-dropdown-content > li:hover { background: #CCCCCC; }
+
+.second-dropdown-content {
+  position: absolute;
+  top: 0;
+  right: -150px;
+  width: 150px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+}
+
+.second-dropdown-content>li {
+  height: 30px;
+  background: #999999;
+}
+
+.second-dropdown-content>li:hover {
+  background: #CCCCCC;
+}

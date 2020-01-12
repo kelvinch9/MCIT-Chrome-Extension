@@ -26,35 +26,33 @@ p {
 }
 
 .save-button {
-	background:#003366;
-	border-radius:19px;
+  background: #003366;
+  border-radius: 19px;
   border: none;
   width: 80%;
   height: 40px;
-	display:block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:15px;
-	font-weight:bold;
-	text-decoration:none;
+  display: block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
   margin: 30px auto 0 auto;
 }
 
 .save-button:active {
-	position:relative;
-	top:1px;
+  position: relative;
+  top: 1px;
 }
 
-.back
-{
+.back {
   text-decoration: none;
   color: #cc0000;
   font-weight: bold;
   margin-bottom: 0;
 }
 
-.container
-{
+.container {
   padding: 0 20px 0 20px;
 }
