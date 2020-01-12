@@ -56,3 +56,11 @@ p {
 .container {
   padding: 0 20px 0 20px;
 }
+
+/* feedback secction */
+
+.feedback {
+  display: block;
+  text-align: right;
+  margin-right: 10px;
+}
