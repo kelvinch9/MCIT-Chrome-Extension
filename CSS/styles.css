@@ -31,13 +31,6 @@ h4 {
   background: white;
 }
 
-/* Feedback button */
-.feedback {
-  text-decoration: none;
-  color: white;
-  margin-bottom: 0;
-}
-
 /* -------------Settings buttons Section--------------------- */
 .settings-btn {
   margin-bottom: 2rem;
