@@ -1,0 +1,13 @@
+Thank you for your interest in using MCIT Portal!
+
+Please follow the above instructions to install the MCIT Portal extension:
+	1. Open chrome and go to the following link: chrome://extensions/
+	2. On the upper right corner, you will see a toggle for Developer mode. Go
+	   ahead and enable that.
+	3. You will then see a button that says 'Load unpacked' click that button and
+	   choose the extension folder.
+	4. Enjoy!
+
+We greatly value your opinion and feedback. This is why we have added
+a send feedback button that is located in the settings page. Please do not
+hesitate to let us know your opinion!
