@@ -30,6 +30,11 @@
     The links in the portal are dynamic and update based on your class selections and course term. In other words, the links are always kept current, saving the user time in removing and adding bookmarks! You can use this extension from when you enroll in the program, until you finish the program.
  
 **Navigation**
+<p align="center">
+ 
+  <img src="https://raw.githubusercontent.com/kelvinch9/MCIT-Chrome-Extension/master/images/dynamic_courses.PNG">
+
+</p>
 
 MCIT Portal supports the following navigation:
 * Coursera (along with your selected courses)
@@ -49,6 +54,12 @@ MCIT Portal supports the following navigation:
   * MCIT Seminars
 * ProctorU
 * Settings
+
+<p align="center">
+ 
+  <img src="https://raw.githubusercontent.com/kelvinch9/MCIT-Chrome-Extension/master/images/options_image.PNG">
+
+</p>
 
 ## What's next for MCIT Portal?
 * Collaborative and Open-source
