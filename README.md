@@ -9,7 +9,7 @@
  HTML, CSS, JavaScript, Chrome APIs
  
  **Overview**\
- We've created a MCIT Portal in the form of a chrome extension that allows easy navigation to frequent links for the MCIT program. As full-time students, we've wasted a lot of time bookmarking links, clicking through layers within coursera, and digging through email and slack channels to find imporant links. The MCIT Portal solves this problem in a lightweight and intuitive chrome extension. 
+ We've created a MCIT Portal in the form of a chrome extension that allows easy navigation to frequent links for the MCIT program. As full-time students, we've wasted a lot of time bookmarking links, clicking through layers within Coursera, and digging through email and Slack channels to find imporant links. The MCIT Portal solves this problem in a lightweight and intuitive chrome extension. 
  
  <p align="center">
  
@@ -25,7 +25,7 @@
  * **Open-source** \
     MCIT Portal is open-source (duh!). Additionally, there are opportunities for students of the program to provide feedback and add new features.
  * **Secure** \
-    Unlinke other chrome extensions, MCIT portal does not require a login, account, or require any special permissions. The only data stored by MCIT Portal can be found in the options page, and is stored internally on your gmail account using chrome.storage API 
+    Unlinke other chrome extensions, MCIT portal does not require a login, account, or require any special permissions. The only data stored by MCIT Portal can be found in the options page, and is stored internally on your gmail account using chrome.storage API. 
  * **Inuitive** \
     We've spent a lot of time on designing the UI of the extension. It's designed to be minimal, yet still makes navigation a breeze for users.
  * **Dynamic** \
