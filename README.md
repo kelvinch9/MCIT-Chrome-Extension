@@ -18,15 +18,15 @@
  
  **Features**
  
- * Lightweight \
+ * **Lightweight** \
     MCIT Portal is lightweight, and does not run in the background. MCIT Portal only runs when the extension is clicked on or when the settings are saved. This saves precious memory in an already memory hungry browser!
- * Open-source \
+ * **Open-source** \
     MCIT Portal is open-source (duh!). Additionally, there are opportunities for students of the program to provide feedback and add new features.
- * Secure \
-    Unlinke other chrome extensions, MCIT portal does not require a login, account, or require any special permissions. The only data stored by MCIT Portal can be found in the options page, and is stored internally on your machine using chrome.storage API 
- * Inuitive \
+ * **Secure** \
+    Unlinke other chrome extensions, MCIT portal does not require a login, account, or require any special permissions. The only data stored by MCIT Portal can be found in the options page, and is stored internally on your gmail account using chrome.storage API 
+ * **Inuitive** \
     We've spent a lot of time on designing the UI of the extension. It's designed to be minimal, yet still makes navigation a breeze for users.
- * Dynamic \
+ * **Dynamic** \
     The links in the portal are dynamic and update based on your class selections and course term. In other words, the links are always kept current, saving the user time in removing and adding bookmarks! You can use this extension from when you enroll in the program, until you finish the program.
  
 **Navigation**
@@ -37,23 +37,23 @@
 </p>
 
 MCIT Portal supports the following navigation:
-* Coursera (along with your selected courses)
+* **Coursera** (along with your selected courses)
   * Overview 
   * Live Events
   * Grades
   * Resources
 
-* Piazza (along with your selected courses)
-* Slack
-* Administrative
+* **Piazza** (along with your selected courses)
+* **Slack**
+* **Administrative**
   * Contact MCIT Staff
   * PennInTouch
   * Academic Calendar
   * Student Handbook
   * Handshake
   * MCIT Seminars
-* ProctorU
-* Settings
+* **ProctorU**
+* **Settings**
 
 <p align="center">
  
