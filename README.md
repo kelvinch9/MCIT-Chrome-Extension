@@ -1,6 +1,6 @@
  # MCIT-Chrome-Extension
  
- See our devpost submission here: https://devpost.com/software/slack-team-bot
+ See our devpost submission here: https://devpost.com/software/mcit-portal-a-chrome-extension
  
  **Members:**\
  Jorge Camilo Wu, Kelvin Cheung
