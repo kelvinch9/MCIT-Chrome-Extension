@@ -32,7 +32,7 @@
 **Navigation**
 <p align="center">
  
-  <img src="https://raw.githubusercontent.com/kelvinch9/MCIT-Chrome-Extension/master/images/dynamic_courses.PNG">
+  <img src="https://github.com/kelvinch9/MCIT-Chrome-Extension/blob/master/images/MCIT%20Portal.gif?raw=true">
 
 </p>
 
