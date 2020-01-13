@@ -57,7 +57,7 @@ MCIT Portal supports the following navigation:
 
 <p align="center">
  
-  <img src="https://raw.githubusercontent.com/kelvinch9/MCIT-Chrome-Extension/master/images/options_image.PNG">
+  <img src="https://raw.githubusercontent.com/kelvinch9/MCIT-Chrome-Extension/master/images/options.JPG">
 
 </p>
 
