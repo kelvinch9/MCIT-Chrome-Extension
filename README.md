@@ -25,7 +25,7 @@
  * **Open-source** \
     MCIT Portal is open-source (duh!). Additionally, there are opportunities for students of the program to provide feedback and add new features.
  * **Secure** \
-    Unlinke other chrome extensions, MCIT portal does not require a login, account, or require any special permissions. The only data stored by MCIT Portal can be found in the options page, and is stored internally on your gmail account using chrome.storage API. 
+    Unlike other chrome extensions, MCIT portal does not require a login, account, or any special permissions. The only data stored by MCIT Portal can be found in the options page, and is stored internally on your gmail account using chrome.storage API. 
  * **Inuitive** \
     We've spent a lot of time on designing the UI of the extension. It's designed to be minimal, yet still makes navigation a breeze for users.
  * **Dynamic** \
