@@ -8,12 +8,19 @@ body {
 }
 
 h3 {
-  margin: 5px;
+  margin: 15px;
+  font-size: 16px;
 }
 
 h4 {
   margin: 5px;
   color: #595959;
+  font-size: 13px;
+}
+
+/* hide non-checked courses */
+.hidden {
+  display: none;
 }
 
 /* -------------------Header Section----------------------- */
@@ -22,7 +29,10 @@ h4 {
   text-align: center;
 }
 
-.penn_logo {
+.portal_logo {
+  position: relative;
+  top: 10px;
+  left: 5px;
   width: 40%;
 }
 
@@ -31,46 +41,20 @@ h4 {
   background: white;
 }
 
-/* -------------Settings buttons Section--------------------- */
-.settings-btn {
-  margin-bottom: 2rem;
-}
-
-/* Style buttons */
-.header-btn {
-  background-color: white;
-  border: none;
-  cursor: pointer;
-  /* Mouse pointer on hover */
-  padding: 0.5rem;
-  width: 2rem;
-  height: 2rem;
-}
-
-/* Darker background on mouse-over */
-.header-btn:hover {
-  border-radius: 50%;
-  background-color: #F8F8F8;
-}
-
-.header-icon {
-  height: 1rem;
-}
-
 /* ------------Buttons---------------------------- */
 /* Adjust all imgs to have the same size */
 .buttons img {
   height: 25px;
   width: 25px;
   padding: 4px 1px;
-  /* margin-top: 10px; */
+  position: relative;
+  top: 5px;
 }
 
 .buttons-container {
-  /* margin: 0 auto 0 auto; */
   width: 400px;
-  height: 100px;
-  background-image: url("https://images.ctfassets.net/wp1lcwdav1p1/5Ve97SnXEcGUoMUsweWAQQ/5efc343de89f4d4f96a1fcaa777d30f4/penn.jpg");
+  height: 150px;
+  background-image: url("/images/college_green.jpg");
   background-size: 100%;
 }
 
@@ -78,14 +62,16 @@ h4 {
   background-color: #003366;
   opacity: 0.8;
   width: 400px;
-  height: 100px;
+  height: 150px;
   position: absolute;
 }
 
 .buttons {
   margin: 0;
   list-style: none;
-  padding: 30px;
+  /* this padding makes sure every button is placed together in one row
+  as well as control vertical position */
+  padding-top: 55px;
 }
 
 .buttons>li {
@@ -96,31 +82,32 @@ h4 {
 
 .buttons>li:hover {
   border-radius: 20%;
-  background: #CCCCCC;
+  background-color: #d9d9d9;
+  transition: background-color 0.2s;
 }
 
 .buttons li:hover>ul {
   /* On hover, display the next level's menu */
   display: inline;
+  transition: width 0.3s, height 0.3s, transform 0.1s, opacity 0.2s;
 }
 
 /* Menu Link Styles */
 .buttons a
-
 /* Apply to all links inside the multi-level menu */
   {
-  font: bold 14px Arial, Helvetica, sans-serif;
-  color: #FFFFFF;
+  font: 15px Arial, Helvetica, sans-serif;
+  color: #404040;
   text-decoration: none;
   display: block;
-  line-height: 30px;
+  line-height: 40px;
 }
 
 .dropdown-content {
   position: absolute;
-  top: 35px;
+  top: 40px;
   left: 0;
-  width: 150px;
+  width: 175px;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -129,19 +116,21 @@ h4 {
 
 .dropdown-content>li {
   position: relative;
-  height: 30px;
-  background: #999999;
+  height: 40px;
+  background-color: white;
+  transition: background-color 0.2s;
 }
 
 .dropdown-content>li:hover {
-  background: #CCCCCC;
+  background-color: #d9d9d9;
+  transition: background-color 0.2s;
 }
 
 .second-dropdown-content {
   position: absolute;
   top: 0;
-  right: -150px;
-  width: 150px;
+  right: -120px;
+  width: 120px;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -149,10 +138,11 @@ h4 {
 }
 
 .second-dropdown-content>li {
-  height: 30px;
-  background: #999999;
+  height: 40px;
+  background-color: white;
 }
 
 .second-dropdown-content>li:hover {
-  background: #CCCCCC;
+  background-color: #d9d9d9;
+  transition: background-color 0.2s;
 }

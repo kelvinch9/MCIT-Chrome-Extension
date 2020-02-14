@@ -1,4 +1,4 @@
-//load the user's first, last, pennID, email from chrome.storage
+549//load the user's first, last, pennID, email from chrome.storage
 
 document.body.onload = function() {
   chrome.storage.sync.get(["first", "last", "email", "pennID", "cit591", "cit592",
@@ -29,113 +29,57 @@ document.body.onload = function() {
         document.getElementById("pennID").innerText = "Penn ID: " + items.pennID;
       }
 
-      //hide 591
-      if(!(items.cit591)){
-         document.getElementById("overview_591").style.display = "none";
-         document.getElementById("live_events_591").style.display = "none";
-         document.getElementById("grades_591").style.display = "none";
-         document.getElementById("resources_591").style.display = "none";
-         document.getElementById("piazza_591").style.display = "none";
-
-         //hide each element in class
-         var elems = document.getElementsByClassName('urls_591');
-         for (var i=0;i<elems.length;i++){
-           elems[i].style.display = 'none';
-         }
-
-      }
-      //hide 592
-      if(!(items.cit592)){
-         document.getElementById("overview_592").style.display = "none";
-         document.getElementById("live_events_592").style.display = "none";
-         document.getElementById("grades_592").style.display = "none";
-         document.getElementById("resources_592").style.display = "none";
-         document.getElementById("piazza_592").style.display = "none";
-
-         var elems = document.getElementsByClassName('urls_592');
-         for (var i=0;i<elems.length;i++){
-           elems[i].style.display = 'none';
-         }
-      }
-      //hide 593
-      if(!(items.cit593)){
-         document.getElementById("overview_593").style.display = "none";
-         document.getElementById("live_events_593").style.display = "none";
-         document.getElementById("grades_593").style.display = "none";
-         document.getElementById("resources_593").style.display = "none";
-         document.getElementById("piazza_593").style.display = "none";
-
-         var elems = document.getElementsByClassName('urls_593');
-         for (var i=0;i<elems.length;i++){
-           elems[i].style.display = 'none';
-         }
-      }
-      //hide 594
-      if(!(items.cit594)){
-         document.getElementById("overview_594").style.display = "none";
-         document.getElementById("live_events_594").style.display = "none";
-         document.getElementById("grades_594").style.display = "none";
-         document.getElementById("resources_594").style.display = "none";
-         document.getElementById("piazza_594").style.display = "none";
-
-         var elems = document.getElementsByClassName('urls_594');
-         for (var i=0;i<elems.length;i++){
-           elems[i].style.display = 'none';
-         }
-      }
-      //hide 595
-      if(!(items.cit595)){
-         document.getElementById("overview_595").style.display = "none";
-         document.getElementById("live_events_595").style.display = "none";
-         document.getElementById("grades_595").style.display = "none";
-         document.getElementById("resources_595").style.display = "none";
-         document.getElementById("piazza_595").style.display = "none";
-
-         var elems = document.getElementsByClassName('urls_595');
-         for (var i=0;i<elems.length;i++){
-           elems[i].style.display = 'none';
-         }
-      }
-      //hide 596
-      if(!(items.cit596)){
-         document.getElementById("overview_596").style.display = "none";
-         document.getElementById("live_events_596").style.display = "none";
-         document.getElementById("grades_596").style.display = "none";
-         document.getElementById("resources_596").style.display = "none";
-         document.getElementById("piazza_596").style.display = "none";
-
-         var elems = document.getElementsByClassName('urls_596');
-         for (var i=0;i<elems.length;i++){
-           elems[i].style.display = 'none';
-         }
-      }
-      //hide 549
-      if(!(items.cit549)){
-         document.getElementById("overview_549").style.display = "none";
-         document.getElementById("live_events_549").style.display = "none";
-         document.getElementById("grades_549").style.display = "none";
-         document.getElementById("resources_549").style.display = "none";
-         document.getElementById("piazza_549").style.display = "none";
-
-         var elems = document.getElementsByClassName('urls_549');
-         for (var i=0;i<elems.length;i++){
-           elems[i].style.display = 'none';
-         }
-      }
-      //hide 581
-      if(!(items.cit581)){
-         document.getElementById("overview_581").style.display = "none";
-         document.getElementById("live_events_581").style.display = "none";
-         document.getElementById("grades_581").style.display = "none";
-         document.getElementById("resources_581").style.display = "none";
-         document.getElementById("piazza_581").style.display = "none";
-
-         var elems = document.getElementsByClassName('urls_581');
-         for (var i=0;i<elems.length;i++){
-           elems[i].style.display = 'none';
-         }
+      function hideShow (obj, status) {
+        if(status == "show") {
+          for(let i = 0; i < obj.length; i++) {
+            obj[i].classList.remove("hidden");
+          }
+        } else {
+          for(let i = 0; i < obj.length; i++) {
+            obj[i].classList.add("hidden");
+          }
+        }
       }
 
+      //CIT591
+      var course591 = document.getElementsByClassName("urls_591");
+      if(items.cit591) hideShow(course591, "show");
+      else hideShow(course591, "hide");
+
+      //CIT592
+      var course592 = document.getElementsByClassName("urls_592");
+      if(items.cit592) hideShow(course592, "show");
+      else hideShow(course592, "hide");
+
+      //CIT593
+      var course593 = document.getElementsByClassName("urls_593");
+      if(items.cit593) hideShow(course593, "show");
+      else hideShow(course593, "hide");
+
+      //CIT594
+      var course594 = document.getElementsByClassName("urls_594");
+      if(items.cit594) hideShow(course594, "show");
+      else hideShow(course594, "hide");
+
+      //CIT595
+      var course595 = document.getElementsByClassName("urls_595");
+      if(items.cit595) hideShow(course595, "show");
+      else hideShow(course595, "hide");
+
+      //CIT596
+      var course596 = document.getElementsByClassName("urls_596");
+      if(items.cit596) hideShow(course596, "show");
+      else hideShow(course596, "hide");
+
+      //CIS549
+      var course549 = document.getElementsByClassName("urls_549");
+      if(items.cit549) hideShow(course549, "show");
+      else hideShow(course549, "hide");
+
+      //CIS581
+      var course581 = document.getElementsByClassName("urls_581");
+      if(items.cit581) hideShow(course581, "show");
+      else hideShow(course581, "hide");
     }
   });
 }
