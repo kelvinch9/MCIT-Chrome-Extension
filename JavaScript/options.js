@@ -1,20 +1,34 @@
 // Saves options to chrome.storage
+var first = document.getElementById("opt-first");
+var last = document.getElementById("opt-last");
+var email = document.getElementById("opt-email");
+var pennID = document.getElementById("opt-pennID");
+//save courses
+var cit591 = document.getElementById("cit591"); //true if checked, false if not checked
+var cit592 = document.getElementById("cit592");
+var cit593 = document.getElementById("cit593");
+var cit594 = document.getElementById("cit594");
+var cit595 = document.getElementById("cit595");
+var cit596 = document.getElementById("cit596");
+var cit549 = document.getElementById("cit549");
+var cit581 = document.getElementById("cit581");
 
 document.getElementById("save").onclick = function() {
+  //grab latest values
+  first = first.value;
+  last = last.value;
+  email = email.value
+  pennID = pennID.value;
+  cit591 = cit591.checked;
+  cit592 = cit592.checked;
+  cit593 = cit593.checked;
+  cit594 = cit594.checked;
+  cit595 = cit595.checked;
+  cit596 = cit596.checked;
+  cit549 = cit549.checked;
+  cit581 = cit581.checked;
+
   // save user identity
-  var first = document.getElementById("first").value;
-  var last = document.getElementById("last").value;
-  var email = document.getElementById("email").value;
-  var pennID = document.getElementById("pennID").value;
-  //save courses
-  var cit591 = document.getElementById("cit591").checked; //true if checked, false if not checked
-  var cit592 = document.getElementById("cit592").checked;
-  var cit593 = document.getElementById("cit593").checked;
-  var cit594 = document.getElementById("cit594").checked;
-  var cit595 = document.getElementById("cit595").checked;
-  var cit596 = document.getElementById("cit596").checked;
-  var cit549 = document.getElementById("cit549").checked;
-  var cit581 = document.getElementById("cit581").checked;
   chrome.storage.sync.set({"first":first,
                             "last":last,
                             "email":email,
@@ -40,20 +54,33 @@ document.body.onload = function() {
                             "cit593","cit594", "cit595", "cit596", "cit549", "cit581"], function(items) {
     if (!chrome.runtime.error) {
       console.log(items);
+
       // load user identity
-      document.getElementById("first").value = items.first;
-      document.getElementById("last").value = items.last;
-      document.getElementById("email").value = items.email;
-      document.getElementById("pennID").value = items.pennID;
+      first.value = items.first == null ? "" : items.first;
+      last.value = items.last == null ? "" : items.last;
+      email.value = items.email == null ? "" : items.email;
+      pennID.value = items.pennID == null ? "" : items.pennID;
       // load courses
-      document.getElementById("cit591").checked = items.cit591;
-      document.getElementById("cit592").checked = items.cit592;
-      document.getElementById("cit593").checked = items.cit593;
-      document.getElementById("cit594").checked = items.cit594;
-      document.getElementById("cit595").checked = items.cit595;
-      document.getElementById("cit596").checked = items.cit596;
-      document.getElementById("cit549").checked = items.cit549;
-      document.getElementById("cit581").checked = items.cit581;
+      cit591.checked = items.cit591;
+      cit592.checked = items.cit592;
+      cit593.checked = items.cit593;
+      cit594.checked = items.cit594;
+      cit595.checked = items.cit595;
+      cit596.checked = items.cit596;
+      cit549.checked = items.cit549;
+      cit581.checked = items.cit581;
       }
   });
+
+  //Decide to show msg or user info
+  // if(first.value == "" && last.value == "" && email.value == "" && pennID.value == "") {
+  //   document.getElementsByClassName("welcome-msg")[0].classList.toggle("hidden");
+  //   document.getElementsByClassName("welcome-msg")[1].classList.toggle("hidden");
+  //
+  // } else {
+  //   document.getElementsByClassName("welcome-msg")[0].classList.toggle("hidden");
+  //   document.getElementsByClassName("welcome-msg")[1].classList.toggle("hidden");
+  // }
+
+
 }
