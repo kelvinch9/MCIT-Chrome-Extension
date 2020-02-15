@@ -71,16 +71,4 @@ document.body.onload = function() {
       cit581.checked = items.cit581;
       }
   });
-
-  //Decide to show msg or user info
-  // if(first.value == "" && last.value == "" && email.value == "" && pennID.value == "") {
-  //   document.getElementsByClassName("welcome-msg")[0].classList.toggle("hidden");
-  //   document.getElementsByClassName("welcome-msg")[1].classList.toggle("hidden");
-  //
-  // } else {
-  //   document.getElementsByClassName("welcome-msg")[0].classList.toggle("hidden");
-  //   document.getElementsByClassName("welcome-msg")[1].classList.toggle("hidden");
-  // }
-
-
 }

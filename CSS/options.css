@@ -39,6 +39,14 @@ p {
   /* border-radius: 5%; */
 }
 
+#opt-first {
+  border-radius: 8px 8px 0 0;
+}
+
+#opt-email {
+  border-radius: 0 0 8px 8px;
+}
+
 .save-button {
   background: #003366;
   border-radius: 19px;

@@ -6,11 +6,8 @@ document.body.onload = function() {
   ], function(items) {
     if (!chrome.runtime.error) {
       console.log(items);
-      //load user data
-      console.log(items.first);
 
-        //Somehow make the extension display a welcome msg if ALL fields are empty. Otherwise, display info normally
-
+      //Show welcome msg only until the settings page has been triggered.
       if(!(items.first == undefined && items.last == undefined && items.email == undefined && items.pennID == undefined)) {
         document.getElementsByClassName("welcome-msg")[0].style.display = "none";
         document.getElementsByClassName("welcome-msg")[1].style.display = "none";
@@ -20,6 +17,7 @@ document.body.onload = function() {
         document.getElementById("pennID").innerHTML = items.pennID;
       }
 
+      //Helper method that will either hide or show the links
       function hideShow(obj, status) {
         if (status == "show") {
           for (let i = 0; i < obj.length; i++) {

@@ -66,6 +66,7 @@ h4 {
   position: absolute;
 }
 
+
 .buttons {
   margin: 0;
   list-style: none;
@@ -89,7 +90,6 @@ h4 {
 .buttons li:hover>ul {
   /* On hover, display the next level's menu */
   display: inline;
-  transition: width 0.3s, height 0.3s, transform 0.1s, opacity 0.2s;
 }
 
 /* Menu Link Styles */
