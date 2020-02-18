@@ -14,7 +14,7 @@ document.body.onload = function() {
 
         document.getElementById("name").innerHTML = items.first + " " + items.last;
         document.getElementById("email").innerHTML = items.email;
-        document.getElementById("pennID").innerHTML = items.pennID;
+        document.getElementById("pennID").innerHTML = "Penn ID: " + items.pennID;
       }
 
       //Helper method that will either hide or show the links
