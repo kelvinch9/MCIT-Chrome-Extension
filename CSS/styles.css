@@ -75,27 +75,8 @@ h4 {
   padding-top: 55px;
 }
 
-.buttons>li {
-  position: relative;
-  float: left;
-  width: 55px;
-}
-
-.buttons>li:hover {
-  border-radius: 20%;
-  background-color: #d9d9d9;
-  transition: background-color 0.2s;
-}
-
-.buttons li:hover>ul {
-  /* On hover, display the next level's menu */
-  display: inline;
-}
-
 /* Menu Link Styles */
-.buttons a
-/* Apply to all links inside the multi-level menu */
-  {
+.buttons a {
   font: 15px Arial, Helvetica, sans-serif;
   color: #404040;
   text-decoration: none;
@@ -103,7 +84,30 @@ h4 {
   line-height: 40px;
 }
 
+/* this is equivalent to the button icon */
+.buttons>li {
+  position: relative;
+  float: left;
+  width: 55px;
+}
+
+/* upon hovering on the button icons, do: */
+.buttons>li:hover {
+  border-radius: 20%;
+  background-color: #d9d9d9;
+  transition: background-color 0.2s;
+}
+
+/* hovering on icon buttons, activate the dropdown menu */
+.buttons li:hover>ul {
+  /* On hover, display the next level's menu */
+  display: inline;
+  height: auto;
+  opacity: 1;
+}
+
 .dropdown-content {
+  display: none;
   position: absolute;
   top: 40px;
   left: 0;
@@ -111,7 +115,6 @@ h4 {
   list-style: none;
   padding: 0;
   margin: 0;
-  display: none;
 }
 
 .dropdown-content>li {
@@ -134,7 +137,12 @@ h4 {
   list-style: none;
   padding: 0;
   margin: 0;
-  display: none;
+
+  /* hide and show, transition animation */
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: opacity linear 0.15s;
 }
 
 .second-dropdown-content>li {
@@ -145,4 +153,8 @@ h4 {
 .second-dropdown-content>li:hover {
   background-color: #d9d9d9;
   transition: background-color 0.2s;
+}
+
+.show {
+  display: block;
 }
