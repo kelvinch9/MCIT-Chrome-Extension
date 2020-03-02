@@ -5,7 +5,7 @@
   "description": "Student's portal to every MCIT content",
   "manifest_version": 2,
   "browser_action": {
-    "default_icon": "logos/penn_favicon.png",
+    "default_icon": "logos/portal.png",
     "default_popup": "index.html"
   },
   "permissions": ["storage"],
