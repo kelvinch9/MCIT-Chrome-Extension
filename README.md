@@ -13,9 +13,9 @@
  
  <p align="center">
  
- <img src="https://raw.githubusercontent.com/kelvinch9/MCIT-Chrome-Extension/master/images/extension_favicon.PNG?token=ANWOM6N7V7FBCYZZKCLFFRC6DC6VA">
+ <img src="https://raw.githubusercontent.com/kelvinch9/MCIT-Chrome-Extension/master/images/favicon.PNG">
  
-  <img src="https://raw.githubusercontent.com/kelvinch9/MCIT-Chrome-Extension/master/images/welcome_msg.jpg?token=ANWOM6J4FEN2SWAEYCBSZCS6DC6WM">
+  <img src="https://raw.githubusercontent.com/kelvinch9/MCIT-Chrome-Extension/master/images/main_image.PNG">
  </p>
  
  **Features**
@@ -34,7 +34,7 @@
 **Navigation**
 <p align="center">
  
-  <img src="https://github.com/kelvinch9/MCIT-Chrome-Extension/blob/master/images/MCIT%20Portal.gif?raw=true">
+  <img src="https://raw.githubusercontent.com/kelvinch9/MCIT-Chrome-Extension/master/images/MCIT%20Portal.gif">
 
 </p>
 
