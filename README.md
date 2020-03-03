@@ -14,8 +14,9 @@
  <p align="center">
  
  <img src="https://raw.githubusercontent.com/kelvinch9/MCIT-Chrome-Extension/master/images/favicon.PNG">
- 
-  <img src="https://raw.githubusercontent.com/kelvinch9/MCIT-Chrome-Extension/master/images/main_image.PNG">
+ </p>
+ <p align="center">
+ <img src="https://raw.githubusercontent.com/kelvinch9/MCIT-Chrome-Extension/master/images/main_image.PNG">
  </p>
  
  **Features**
