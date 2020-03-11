@@ -1,7 +1,7 @@
 {
   "update_url": "https://clients2.google.com/service/update2/crx",
   "name": "MCIT Portal",
-  "version": "1.0",
+  "version": "1.2",
   "description": "Student's portal to every MCIT content",
   "manifest_version": 2,
   "browser_action": {
