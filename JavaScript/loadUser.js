@@ -1,14 +1,14 @@
 //load the user's first, last, pennID, email from chrome.storage
 
-document.body.onload = function() {
+document.body.onload = function () {
   chrome.storage.sync.get(["first", "last", "email", "pennID", "cit591", "cit592",
-    "cit593", "cit594", "cit595", "cit596", "cit549", "cit581"
-  ], function(items) {
+    "cit593", "cit594", "cit595", "cit596", "cis549", "cis581", "cis547", "cis515"
+  ], function (items) {
     if (!chrome.runtime.error) {
       console.log(items);
 
       //Show welcome msg only until the settings page has been triggered.
-      if(!(items.first == undefined && items.last == undefined && items.email == undefined && items.pennID == undefined)) {
+      if (!(items.first == undefined && items.last == undefined && items.email == undefined && items.pennID == undefined)) {
         document.getElementsByClassName("welcome-msg")[0].style.display = "none";
         document.getElementsByClassName("welcome-msg")[1].style.display = "none";
 
@@ -62,13 +62,23 @@ document.body.onload = function() {
 
       //CIS549
       var course549 = document.getElementsByClassName("urls_549");
-      if (items.cit549) hideShow(course549, "show");
+      if (items.cis549) hideShow(course549, "show");
       else hideShow(course549, "hide");
 
       //CIS581
       var course581 = document.getElementsByClassName("urls_581");
-      if (items.cit581) hideShow(course581, "show");
+      if (items.cis581) hideShow(course581, "show");
       else hideShow(course581, "hide");
+
+      //CIS581
+      var course547 = document.getElementsByClassName("urls_547");
+      if (items.cis547) hideShow(course547, "show");
+      else hideShow(course547, "hide");
+
+      //CIS581
+      var course515 = document.getElementsByClassName("urls_515");
+      if (items.cis515) hideShow(course515, "show");
+      else hideShow(course515, "hide");
     }
   });
 }
